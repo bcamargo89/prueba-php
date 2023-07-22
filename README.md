@@ -1,4 +1,4 @@
-# API-REST-with-PHP
+# API-PHP-BISMAK-CAMARGO
  
 # Los códigos de respuesta que utilizaremos en este tutorial son:
 
@@ -12,22 +12,10 @@
 Para este tutorial, las URL que emplearemos son los siguientes:
 
 
-* GET /peoples → recuperara una lista de personas.
-* GET /peoples/1 → recupera la información de una persona en especifico.
-* POST /peoples → Crea una nueva persona
-* PUT /peoples/1 → Actualiza el registro con el ID 1
-* DELETE /peoples/1 → Elimina el registro con ID 1
-
-# Un ejemplo de lo que NO se debe hacer:
+* GET /users → recuperara una lista de usuario.
+* GET /users/1 → recupera la información de un usuario en especifico.
+* POST /users → Crea una nuevo usuario
+* PUT /users/1 → Actualiza el registro con el ID 1
+* DELETE /users/1 → Elimina el registro con ID 1
 
 
-* POST /personas/agregar <<NO usar verbos>>
-* GET /personas/sillas/crustaceos <<wtf>>
-
-
-# Para probar el API puedes usar Insomnia, y configurar las siguientes peticiones dependiendo de la ruta de tu proyecto:
-1. obtener personas : GET : http://localhost/tuProyecto/peoples
-2. persona por ID : GET : http://localhost/tuProyecto/peoples/1
-3. nueva persona : POST: http://localhost/tuProyecto/peoples
-4. actualizar registro : PUT : http://localhost/tuProyecto/peoples/1
-5. eliminar registro : DELETE : http://localhost/tuProyecto/peoples/1
